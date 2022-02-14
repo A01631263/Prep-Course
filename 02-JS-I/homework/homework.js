@@ -73,7 +73,7 @@ function tienenMismaLongitud(str1, str2) {
   // De lo contrario, devuelve "false"
   // Tu código:
    if (str1.lenght === str2.lenght){
-     return True;
+     return true;
    }else {
     return false;
   }
@@ -240,8 +240,7 @@ function esVocal(letra){
   if (letra.lenght > 1){
     return "Dato incorrecto";
   }
-
-  if (letra === "A" || "E" || "I"|| "O" || "U" || "a" || "e"|| "i" || "o" ||"u"){
+  if (letra === "A" || letra === "E" || letra === "I"|| letra === "O" || letra === "U" || letra === "a" || letra === "e"|| letra === "i" || letra === "o" || letra ==="u"){
     return "Es vocal";
   } 
   return "Dato incorrecto";
