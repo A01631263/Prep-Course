@@ -1,0 +1,5 @@
+Variables: Son valores que van a cambiar todo el tiempo
+Strings: cadenas de texto, solo comprensibles por humanos, no significan nada para una computadora.
+Funciones: sirve para hacer algo con las variables
+Declaraciones: sirve para darle un "nombre" o identificador a variables o funciones
+Valores booleanos: sirven para tener respuestas de si o no, se usan cuando queremos limitar la respuesta a algo verdadero o falso
