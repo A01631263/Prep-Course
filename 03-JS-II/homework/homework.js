@@ -47,9 +47,9 @@ function saludo(idioma) {
   // Tu código:
   if ( idioma === "aleman" ){
     return "Guten Tag!";
-  } else if ( idioma === mandarin){
+  } else if ( idioma === "mandarin"){
     return "Ni Hao!";
-  } if (idioma === ingles) {
+  } if (idioma === "ingles") {
     return "Hello!";
   } else {
     return "Hola!";
