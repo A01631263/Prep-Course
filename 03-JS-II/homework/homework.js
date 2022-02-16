@@ -49,7 +49,7 @@ function saludo(idioma) {
     return "Guten Tag!";
   } else if ( idioma === mandarin){
     return "Ni Hao!";
-  } else if (idioma === ingles) {
+  } if (idioma === ingles) {
     return "Hello!";
   } else {
     return "Hola!";
@@ -71,7 +71,7 @@ function colors(color) {
       return "This is red";
       case "green":
       return "This is green";
-      case "blue":
+      case "orange":
       return "This is orange";
       default:
         return "Color not found"
@@ -160,7 +160,7 @@ function esVerdadero(valor) {
   //Escribe una función que reciba un valor booleano y retorne “Soy verdadero” 
   //si su valor es true y “Soy falso” si su valor es false.
   //Escribe tu código aquí
-  if (valor === "true" || valor === "True") { 
+  if (valor === true ) { 
     return "Soy verdadero";
   } else { 
     return "Soy falso";
@@ -182,7 +182,7 @@ function tablaDelSeis(){
 function tieneTresDigitos(numero){
   //Leer un número entero y retornar true si tiene 3 dígitos. Caso contrario, retorna false.
   //Escribe tu código aquí
-  if (numero.lenght === 3){
+  if (numero >= 100 && numero < 1000){
     return true;
   } else {
     return false;
