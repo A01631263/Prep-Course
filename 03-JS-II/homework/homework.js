@@ -148,12 +148,12 @@ function esPrimo(numero) {
   // Nota: Los números 0 y 1 NO son considerados números primos
   if ( numero < 2 )  return false;
   if (numero === 2)  return true; 
-  
-  if ( numero / numero === 1 && numero % 1 === 0 ) {
-    return true;
-  } else {
-    return false
+  for(var P = 2; P < numero; P++ ){
+    if ( numero % P === 0) {
+      return false;
+    }
   }
+  return true;
 }
 
 function esVerdadero(valor) {
