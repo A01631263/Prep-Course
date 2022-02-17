@@ -1,0 +1,4 @@
+for: es una funcion para crear varias condiciones, para crear un loop que se repetira hasta que una de esas condiciones cambie y detenga el ciclo.
+&&  Se tienen que cumplir ambass condiciones para que el programa avance
+|| se pueden cumplir una condicion o la otra, o ambas
+!   Cualquier cosa menos esto
